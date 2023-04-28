@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33205.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{DB0DC6EA-5F2B-487C-B37B-F6E2AE69A9D6}"
+	ProjectSection(SolutionItems) = preProject
+		home.html = home.html
+		index1.html = index1.html
+		style.css = style.css
+		textbooks.html = textbooks.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "img", "img", "{69FF5954-7265-4D9F-A927-39F0138BDD95}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\Desktop\logo.jpg = ..\..\..\Desktop\logo.jpg
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "registration", "registration", "{34DBB3ED-77BF-40DB-BE86-BFEDD5ED9663}"
+	ProjectSection(SolutionItems) = preProject
+		registration.cs = registration.cs
+		registration.html = registration.html
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {ECE397D4-096F-47D0-9D2A-90FB9A110D80}
+	EndGlobalSection
+EndGlobal

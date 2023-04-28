@@ -1,0 +1,91 @@
+﻿
+<html>
+<head>
+    <title>Registration here</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <style>
+        body {
+            background-color: lightgrey;
+            opacity: 1;
+            
+            
+                margin:0;
+                padding: 1in;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            align-items: normal;
+        }
+
+        label {
+            margin-top: 10px;
+        }
+
+        input {
+            margin-bottom: 20px;
+            padding: 10px;
+            border-radius: 5px;
+            border: none;
+            box-shadow: 1px 1px 2px #ccc;
+            width: 100%;
+            max-width: 300px;
+        }
+
+            input[type="submit"] {
+                background-color: #3e8e41;
+                color: white;
+                cursor: pointer;
+            }
+
+                input[type="submit"]:hover {
+                    background-color: #3e8e41;
+                }
+    </style>
+</head>
+<body>
+
+    <h2>fill the required information below</h2>
+
+    <h2>personal details</h2>
+    <form>
+        <label for="name">Full name:</label>
+        <input type="text" id="fullname" name="Full name" required>
+        <label for="class">level:</label>
+        <input type="text" id="Level" name="Level" required>
+        <label for="">schoolname:</label>
+        <input type="text" id="schoolname" name="Schoolname" required>
+        <label for="phonenumber">phone number:</label>
+        <input type="text" id="phonenumber" name="class" required>
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="Username" required>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+
+        <label for="confirm-password">Confirm Password:</label>
+        <input type="password" id="confirm-password" name="confirm-password" required>
+
+        <input type="submit" value="signup">
+
+    </form>
+    <h3>already have account</h3>
+    <form>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+
+
+
+        <input type="submit" value="sign in">
+
+    </form>
+    </body>
+    <li><a href=" resetpassword ">forget password</a></li>
+</html>
